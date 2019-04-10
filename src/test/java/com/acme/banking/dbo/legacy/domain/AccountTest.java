@@ -14,6 +14,7 @@ public class AccountTest {
         accountStructure.amount = 0;
 
         //Look ma, no checks!
+        //test
         accountStructure.amount -= 2_000;
 
         assertThat(accountStructure.amount)
